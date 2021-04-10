@@ -23,3 +23,7 @@ found in [How to Create a Database for Free](https://www.mongodb.com/database/fr
 and [Get started with Atlas](https://docs.atlas.mongodb.com/getting-started/). The reason
 of using the cloud hosted mongodb is because it save out the trouble of setup
 the mongodb in the local.
+
+### Notes
+
+The URI in the `config/conf.py` is just an example, do change it to the database that you are using currently.

@@ -1,16 +1,18 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, Response
 from flask_cors import CORS
+# from flask_bcrypt import Bcrypt
+
+# Self define library function
+from config.conf import dbURI
+from database.db import initializeDB
+from database.model import User
 
 app = Flask(__name__)
-
-@app.route('/')
-def hello():
-    return {'msg': "Hello, World"}
-
-@app.route('/v1/user', methods=['POST'])
-def add_user():
-    user = request.get_json()
-
+CORS(app)  # allow cross origin request
+# bcrypt = Bcrypt(app)
+# connect the application to mongodb
+app.config['MONGO_SETTINGS'] = {'host': dbURI}
+initializeDB(app)
 
 
 if __name__ == '__main__':
