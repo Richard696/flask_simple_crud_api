@@ -17,7 +17,7 @@ or terminal (for Mac and Linux user). Then, open the commandline or terminal and
 
 ### Database
 
-Create an account in [mongodb web](https://www.mongodb.com/), then create a free
+Create an account in [Mongodb Atlas](https://www.mongodb.com/), then create a free
 database in the website. The detail guide to set up the mongodb on cloud can be
 found in [How to Create a Database for Free](https://www.mongodb.com/database/free)
 and [Get started with Atlas](https://docs.atlas.mongodb.com/getting-started/). The reason

@@ -18,8 +18,6 @@ class UsersApi(Resource):
     def post(self):
         try:
             body = request.get_json()
-            print("Content of the request:")
-            print(body)
             password_hash = generate_password_hash(body.get('password'))
             body['password'] = password_hash
             user = User(**body).save()
