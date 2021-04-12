@@ -24,6 +24,14 @@ and [Get started with Atlas](https://docs.atlas.mongodb.com/getting-started/). T
 of using the cloud hosted mongodb is because it save out the trouble of setup
 the mongodb in the local.
 
-### Notes
+## Unit Testing
+
+The test case are locate in `test` folder. The command to run the test is `python -m unittest --buffer`.
+
+## API Documentation
+
+The documentation for this api can be found on https://documenter.getpostman.com/view/9794957/TzJoDfYs.
+
+## Notes
 
 The URI in the `config/conf.py` is just an example, do change it to the database that you are using currently.
