@@ -11,7 +11,9 @@ as the database.
 Make sure you have install python in your local machine.
 Else please go to [python official website](https://www.python.org/)
 to download the installer (for Windows and Mac user), while for Linux user
-python is installed by default in the system. Then check is the python package manager `pip`
+python is installed by default in the system.
+
+Then check is the python package manager `pip`
 is available in your or not by running `pip -v` in commandline (for Windows User)
 or terminal (for Mac and Linux user). Then, open the commandline or terminal and change
 the directory to the root folder of this project then run `pip install` to install
@@ -23,6 +25,8 @@ pip install pipenv
 pipenv shell
 pipenv install
 ```
+
+Pipenv will install the package that is stated in Pipfile.
 
 ### Database
 
