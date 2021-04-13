@@ -15,7 +15,14 @@ python is installed by default in the system. Then check is the python package m
 is available in your or not by running `pip -v` in commandline (for Windows User)
 or terminal (for Mac and Linux user). Then, open the commandline or terminal and change
 the directory to the root folder of this project then run `pip install` to install
-neccessary dependency as stated in `requirements.txt`.
+neccessary dependency as stated in `requirements.txt`. If you wish to separate the project dependency
+from your python. you can use `pipenv` where you can use the following command:
+
+```
+pip install pipenv
+pipenv shell
+pipenv install
+```
 
 ### Database
 
