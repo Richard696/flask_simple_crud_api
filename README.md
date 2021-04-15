@@ -63,6 +63,9 @@ if you want to control the access of the database. Then input the username and t
 be used to connect to the database. Next, get the MongoDB URI by clicking on the `Choose a connection method` button.
 Click on `Connect your application`, select the Driver (which programming language you are using), this case will be
 Python, then select version 3.6 or later. Then the URI is shown, copy it and paste it to `config/conf.py`.
+The general URI to connect to MongoDB atlas is `mongodb+srv://<username>:<password>@cluster0.0em0x.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`.
+Do remember to replace <username> with the username that you create for the DB, as well as the password. also don't forget to replace myFirstDatabase with
+the name of the database you want to use. In this case, I am naming it as _user_.
 ![Mongo Atlas Project Page](./assets/mongo-cluster-creating.png)
 _Figure 6: Mongo Atlas Create Cluster Page_
 
@@ -74,10 +77,6 @@ _Figure 8: Choose Connection Method_
 
 ![MongoDB URI Setup](./assets/get-mongodb-connect-uri.png)
 _Figure 9: Select Programming Language to Connect The Database_
-
-The general URI to connect to MongoDB atlas is `mongodb+srv://<username>:<password>@cluster0.0em0x.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`.
-Dp remember to replace <username> with the username that you create for the DB, as well as the password. also don't forget to replace myFirstDatabase with
-the name of the database you want to use. In this case, I am naming it as _user_.
 
 ## Unit Testing
 
