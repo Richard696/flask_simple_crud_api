@@ -75,6 +75,10 @@ _Figure 8: Choose Connection Method_
 ![MongoDB URI Setup](./assets/get-mongodb-connect-uri.png)
 _Figure 9: Select Programming Language to Connect The Database_
 
+The general URI to connect to MongoDB atlas is `mongodb+srv://<username>:<password>@cluster0.0em0x.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`.
+Dp remember to replace <username> with the username that you create for the DB, as well as the password. also don't forget to replace myFirstDatabase with
+the name of the database you want to use. In this case, I am naming it as _user_.
+
 ## Unit Testing
 
 The test case are locate in `test` folder. The command to run the test is `python -m unittest --buffer`.
